@@ -1,0 +1,27 @@
+.header-image{
+  width: 600px;
+  height: auto;
+}
+
+
+/*RESPONSIVE*/
+@media screen and (max-width: 600px) {
+  /* Cambios de estilo para dispositivos con ancho máximo de 600px (ajusta según sea necesario) */
+
+  #img-encabezado{
+    width: 300px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: auto;
+    margin-right: 20px; /* Espacio entre la imagen y el título */
+    margin-top: 5;
+  }
+
+
+  .image-container{
+      margin-bottom: 0;
+      width: auto;
+      animation: fadeInFromLeft 1s ease-out;
+      display: flex;
+      justify-content: center; /* Elimina el espacio entre la imagen y el texto en dispositivos pequeños */
+  }
+
+}

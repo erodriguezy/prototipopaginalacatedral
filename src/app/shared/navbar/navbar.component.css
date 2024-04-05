@@ -1,0 +1,53 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+ .nav-link{
+  font-size: large;
+}
+
+.nav-item{
+  padding: 10px;
+}
+
+.nav-link:hover{
+  color:darkgoldenrod;
+
+}
+
+
+
+
+/*Angular Material*/
+/* .link-button{
+  font-size: large;
+  margin-right: 25px;
+
+}
+
+.link-button:hover{
+  color:cornflowerblue;
+
+}
+
+.link-active{
+    text-decoration:brown;
+}
+
+@media (min-width:900px){
+  #menu-icon{
+    display: none;
+  }
+  #menu-title{
+    display: none;
+  }
+}
+
+@media (max-width:900px){
+  .link-button{
+    display: none;
+  }
+
+} */
+
+

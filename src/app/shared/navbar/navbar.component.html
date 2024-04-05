@@ -1,0 +1,64 @@
+<!-- Barra con Bootstrap -->
+
+<nav class="navbar navbar-expand-lg navbar border-bottom border-body" style="background-color:cornsilk">
+  <div class="container-fluid">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" [routerLink]="'/pagina-web/inicio'">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="'/pagina-web/parroquia'">Parroquia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="'/pagina-web/sacramentos'">Sacramentos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="'/pagina-web/grupos'">Grupos parroquiales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="'/pagina-web/'">Horarios</a>
+          </li>
+      </ul>
+      <button type="button" class="btn btn-primary">Login</button>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Barra con Angular Material -->
+<!-- <mat-toolbar color="primary">
+  <button mat-icon-button id="menu-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span id="menu-title">Menu</span>
+  <span class="example-spacer"></span>
+  <a
+    [ngClass]="'active'"
+    class="link-button"
+
+    [routerLink]="'/pagina-web/inicio'"
+
+  >Inicio</a>
+  <a [ngClass]="'active'" class="link-button"  [routerLink]="'/pagina-web/parroquia'" >Parroquia</a>
+  <a class="link-button" mat-button [routerLink]="'/pagina-web/sacramentos'" >Sacramentos</a>
+  <a class="link-button" mat-button [routerLink]="'/pagina-web/grupos'" >Grupos parroquiales</a>
+  <a class="link-button" mat-button [routerLink]="'/pagina-web/horarios'" >Horarios</a>
+
+    <span class="example-spacer"></span>
+    <button type="button" class="btn btn-outline-light">Login</button>
+</mat-toolbar> -->
