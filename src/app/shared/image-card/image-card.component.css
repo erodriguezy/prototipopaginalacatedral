@@ -1,0 +1,8 @@
+.card-body{
+  overflow: hidden; /* Para ocultar el desbordamiento si la imagen se agranda */
+  transition: transform 0.5s ease; /* Transición suave de la propiedad transform */
+}
+
+.card-body img:hover{
+  transform: scale(1.06);
+}

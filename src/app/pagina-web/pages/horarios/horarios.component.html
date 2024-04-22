@@ -1,1 +1,8 @@
-<p>horarios works!</p>
+<div *ngFor="let element of data" class="container mb-3 mt-3" >
+
+    <shared-text-image-card [horario]="element"></shared-text-image-card>
+    <div class="divider"></div>
+
+</div>
+
+

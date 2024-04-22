@@ -1,0 +1,37 @@
+[
+  {
+    "_id": "1",
+    "nombre":"Bautismo",
+    "imageURL":"../../../assets/images/bautismo.png"
+  },
+  {
+    "_id": "2",
+    "nombre":"Confirmación",
+    "imageURL":"../../../assets/images/confirmacion.jpg"
+  },
+  {
+    "_id": "3",
+    "nombre":"Primera Comunión",
+    "imageURL":"../../../assets/images/primera-comunion"
+  },
+  {
+    "_id": "4",
+    "nombre":"Reconciliación",
+    "imageURL":"../../../assets/images/reconciliacion.jpg"
+  },
+  {
+    "_id": "5",
+    "nombre":"Unción de los enfermos",
+    "imageURL":"../../../assets/images/uncion-enfermos.jpg"
+  },
+  {
+    "_id": "6",
+    "nombre":"Matrimonio",
+    "imageURL":"../../../assets/images/matrimonio.jpg"
+  },
+  {
+    "_id": "7",
+    "nombre":"Orden Sacerdotal",
+    "imageURL":"../../../assets/images/orden-sacerdotal.jpg"
+  }
+]

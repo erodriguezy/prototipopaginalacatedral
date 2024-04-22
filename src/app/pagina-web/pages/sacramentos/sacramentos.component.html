@@ -1,41 +1,17 @@
+
 <div class="container mt-4">
 
-  <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-    <div class="col">
-      <div class="card mb-4 rounded-3 shadow-sm">
-        <div class="card-header py-3">
-          <h4 class="my-0 fw-normal">Bautismo</h4>
-        </div>
-        <div class="card-body">
-          <img src="../../../../assets/images/bautismo.png" class="img-fluid mb-2 rounded-4" alt="Bautismo">
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card mb-4 rounded-3 shadow-sm">
-        <div class="card-header py-3">
-          <h4 class="my-0 fw-normal">Primera Comunión</h4>
-        </div>
-        <div class="card-body">
-          <img src="../../../../assets/images/primera-comunion.jpg" class="img-fluid mb-2 rounded-4" alt="Bautismo">
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card mb-4 rounded-3 shadow-sm">
-        <div class="card-header py-3">
-          <h4 class="my-0 fw-normal">Confirmación</h4>
-        </div>
-        <div class="card-body">
-          <img src="../../../../assets/images/confirmacion.jpg" class="img-fluid mb-2 rounded-4" alt="Bautismo">
-        </div>
-      </div>
+  <div class="row row-cols-1 row-cols-md-3 mb-3 text-center ">
+    <div *ngFor="let element of data"class="col ">
+     <shared-image-card [sacramento]="element"></shared-image-card>
+
     </div>
 
   </div>
+</div>
 
-  <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-    <div class="col">
+  <!-- <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+
       <div class="card mb-4 rounded-3 shadow-sm">
         <div class="card-header py-3">
           <h4 class="my-0 fw-normal">Reconciliación</h4>
@@ -69,7 +45,7 @@
   </div>
 
   <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-    <div class="col">
+    <div class="col animate__animated animate__fadeInUp">
       <div class="card mb-4 rounded-3 shadow-sm">
         <div class="card-header py-3">
           <h4 class="my-0 fw-normal">Orden Sacerdotal</h4>
@@ -82,4 +58,4 @@
 
 
 
-</div>
+</div> -->
